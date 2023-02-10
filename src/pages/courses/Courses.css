@@ -1,0 +1,31 @@
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-padding-end: 20px;
+    -moz-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+    background-color: transparent;
+    border: 1.5px solid #888888;
+    border-radius: 10px;
+    color: #595959;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-right: 3rem;
+    cursor: pointer;
+    float: right;
+    font-size: 0.95rem;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.select{
+    margin-bottom: 3rem;
+}
+

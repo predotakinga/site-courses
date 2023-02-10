@@ -1,0 +1,17 @@
+* {
+    background-color: #f5f5f5;
+}
+
+
+.nav {
+    background-color: transparent;
+    display: flex;
+    padding: 0 1rem;
+}
+
+
+.outlet {
+    color: #595959;
+    padding: 3rem;
+}
+

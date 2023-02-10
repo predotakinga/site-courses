@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    gap: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+}
+
+.card {
+    overflow: hidden;
+    box-shadow: 0 2px 20px #dbdbdb;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card:hover .card-btn {
+    background: #888888;
+    color: #FFF;
+}
+
+
+/*znaleźć na to sposób*/
+.card-body img {
+    height: 12rem;
+    width: 100%;
+    padding-bottom: 20px;
+    object-fit: cover;
+}
+
+.card-location {
+    font-size: 0.8rem;
+    color: #888888;
+}
+
+.card-date {
+    font-size: 0.8rem;
+    color: #888888;
+}
+
+.card-title {
+    padding: 1rem;
+    color: #595959;
+}
+
+.card-description {
+    padding: 0 1rem;
+}
+
+.card-btn {
+    padding: 0.8rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 1.5px solid #888888;
+    background: transparent;
+    color: #888888;
+    border-radius: 20px;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    text-decoration: none;
+}

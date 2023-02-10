@@ -1,0 +1,109 @@
+.container-tiny {
+display: flex;
+margin-top: 2.5%;
+align-items: center;
+}
+
+.offer {
+    text-align: center;
+}
+
+.offer img {
+    box-shadow: 0 2px 20px #dbdbdb;
+    border-radius: 8px;
+    width: 450px;
+    height: 300px;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.hours {
+    display: inline-block;
+    color: 'pink'
+}
+
+.left {
+    float: left;
+    /* width:30%; */
+    margin-left: 5%; 
+}
+
+.right {
+    float: right;
+    margin-right: 5%; 
+}
+
+.offer h2 {
+    padding: 1rem;
+    color: #595959;
+}
+
+.place{
+    font-size: 1rem;
+    padding: 0.1rem;
+    color: #888888;
+}
+
+.description {
+    padding: 1rem;
+    color: #595959;
+}
+
+
+.btn {
+    padding: .8rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 3%;
+    border: 1.5px solid #888888;
+    background: transparent;
+    color: #888888;
+    border-radius: 20px;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #888888;
+    color: #FFF;
+}
+
+.Toastify__toast--error {
+    border: 1px solid #EB5757;
+    border-radius: 50px !important;
+    background: #FAE1E2 !important;
+}
+
+.p {
+    align-items: center;
+}
+
+.address {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    color: #888888
+}
+
+a:link {
+    color: #888888;
+}
+
+/* visited link */
+a:visited {
+    color: #888888;
+}
+
+/* mouse over link */
+a:hover {
+    color: #595959;
+}
+
+/* selected link */
+a:active {
+    color: #888888;
+}
